@@ -130,7 +130,7 @@ void loop() {
       }else{
         mode_s = 0;
       }
-      if (EEPROM.read(5) == hour) {
+      if (EEPROM.read(6) == hour) {
         if(mode_s2 == 0){
         mode_s2 = 1;
         myservo.write(45);
